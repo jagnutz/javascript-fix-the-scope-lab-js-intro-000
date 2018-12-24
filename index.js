@@ -24,5 +24,5 @@ var funkyFunction = function() {
   }
 }
 
-theFunk = funkyFunction();
-console.log(theFunk())
+var theFunk = funkyFunction();
+theFunk = theFunk()
